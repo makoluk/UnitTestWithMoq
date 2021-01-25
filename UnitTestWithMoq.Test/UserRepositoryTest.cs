@@ -99,9 +99,9 @@ namespace UnitTestWithMoq.Test
         {
             var actual = new User { Id = 2, FirstName = "User2_Updated", LastName = "User2LastName_Updated" };
             this.MockUserRepository.Update(actual);
-            
+
             var expected = this.MockUserRepository.GetById(actual.Id);
-            
+
             Assert.IsNotNull(expected);
             Assert.AreEqual(actual.FirstName, expected.FirstName);
             Assert.AreEqual(actual.LastName, expected.LastName);

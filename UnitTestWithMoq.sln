@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestWithMoq", "UnitTest
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestWithMoq.Test", "UnitTestWithMoq.Test\UnitTestWithMoq.Test.csproj", "{97C40856-4195-40E2-954B-14735D940E58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestWithMoq.IntelliTest", "UnitTestWithMoq.IntelliTest\UnitTestWithMoq.IntelliTest.csproj", "{5822A70F-63AB-4812-8B2C-50438DC54CC2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{97C40856-4195-40E2-954B-14735D940E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97C40856-4195-40E2-954B-14735D940E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97C40856-4195-40E2-954B-14735D940E58}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5822A70F-63AB-4812-8B2C-50438DC54CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5822A70F-63AB-4812-8B2C-50438DC54CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5822A70F-63AB-4812-8B2C-50438DC54CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5822A70F-63AB-4812-8B2C-50438DC54CC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
